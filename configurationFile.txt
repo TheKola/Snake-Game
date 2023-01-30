@@ -1,0 +1,49 @@
+-- This file consist of requried data to play the game smoothly
+-- WARNING : DO NOT CHANGE ANY VALUES OR NAMES WITHOUT THE ADMINS APPROVAL
+------------------------------------------------------------------------
+
+gameLayout:*
+--This symbol is how layout of the game will look.
+snakeBody:*
+--This symbol is how the snake looks.
+
+food:F
+--This symbol is how the food will look.
+
+snakeXPosition:5
+--This is the snake's initial X position(Default = 5)
+snakeYPosition: 5
+--This is the snake's initial Y position(Default = 5)
+
+snakeInitialSpeed:80
+--This is the inital speed of the snake(Default value = 120)
+snakeMaxSpeed:20
+--This is the max speed of the snake(Default value = 20)
+snakeSpeedIncreasedBy:5
+--This is the speed by which the speed of the snake will reduce(Default value = 5)
+
+-- Please Note: The speed is in decreasing order, more the speed slower the snake.
+
+noOfLayoutSizes:3
+--This is the number of Layout sizes available(Default value = 3 (Large, Medium, Small))
+
+largeLayout:1
+--This is the percentage amount of the screen when playing large size(Default value = 1)
+mediumLayout:0.7
+--This is the percentage amount of the screen when playing medium size(Default value = 0.7)
+smallLayout:0.5
+--This is the percentage amount of the screen when playing small size(Default value = 0.5)
+
+displayHighScores:5
+--This is the number of high scores to display(Default value = 5)
+
+noOfGameModes:2
+--This is the number of game modes(Default value = 2 (Claasic, Arcade))
+
+noOfMenuOptions:3
+--This is the number of options in the game menu(Default value = 3 (Play game, High scores, Exit))
+
+delay:1000
+--This is the time (milliseconds) delay after the game is over(Default value = 1000)
+
+------------------------------------------------------------------------
